@@ -21,35 +21,73 @@ nav{
 }
 
 img{
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
-article{
+.ars{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+}
+
+.liver{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.city{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.manutd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.barc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.real{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.psg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.milan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 @media screen and (min-width:768px){
-
     .rub{
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 3fr;
     grid-template-rows: auto auto auto;
     gap: 10px;
 }
 
 header{
-    grid-column: 1/3;
+    grid-column: 1/4;
 }
 
 nav{
-    grid-column: 1/2;
+    
 }
 
 main{
-    grid-column: 2/3;
+    display: grid;
+    grid-column: 1/4;
+    grid-template-columns: 1fr 1fr;
 }
 
 footer{
@@ -62,7 +100,7 @@ footer{
 
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
 }
 
