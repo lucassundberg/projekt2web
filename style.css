@@ -21,8 +21,43 @@ h1{
 }
 
 nav{
-    align-content: center;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.Kön{
+    background-color: #7DFF6E;
+    border-width: 2px;
+    border-style: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+}
+.Stor{
+    background-color: #7DFF6E;
+    border-width: 2px;
+    border-style: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+}
+.Liga{
+    background-color: #7DFF6E;
+    border-width: 2px;
+    border-style: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
 }
 
 img{
@@ -110,7 +145,15 @@ header{
 }
 
 nav{
-    
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul{
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    margin-left: 382px;
 }
 
 main{
