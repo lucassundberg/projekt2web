@@ -1,0 +1,61 @@
+.rub{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+header{
+    background-color: #7DFF6E;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px){
+
+    .rub{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+}
+
+header{
+    grid-column: 1/3;
+}
+
+nav{
+    grid-column: 1/2;
+}
+
+main{
+    grid-column: 2/3;
+}
+
+footer{
+    grid-column: 1/3;
+}
+
+}
+
+@media screen and (min-width:1024px){
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+}
