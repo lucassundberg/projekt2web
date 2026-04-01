@@ -5,15 +5,16 @@
 }
 
 header{
+    display: flex;
+    justify-content: center;
     background-color: #7DFF6E;
-    border-style: solid;
-    border-radius: 5px;
-    width: 100%;
+    align-items: center;
 }
 
 footer{
     text-align: center;
 }
+
 
 h1{
     text-align: center;
@@ -21,9 +22,22 @@ h1{
 }
 
 nav{
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+}
+.ok{
+    text-align: center;
+}
+.sig{
+    text-align: center;
+    grid-column: 1/4;
+    padding: 10px;
+}
+.land{
+    text-align: center;
+    grid-column: 1/4;
+    padding: 10px;
 }
 
 ul{
@@ -31,7 +45,15 @@ ul{
     flex-direction: row;
     justify-content: center;
     gap: 10px;
+    padding: 0px;
+    list-style: none;
 }
+.mes{
+    width: 220px;
+    height: auto;
+}
+
+
 .Kön{
     background-color: #7DFF6E;
     border-width: 2px;
@@ -50,6 +72,7 @@ ul{
     padding-bottom: 2.5px;
     padding-top: 2.5px;
 }
+
 .Liga{
     background-color: #7DFF6E;
     border-width: 2px;
@@ -71,6 +94,7 @@ img{
     align-items: center;
     p{
         margin: 4px;
+        font-weight: bold;
     }
 }
 
@@ -80,14 +104,17 @@ img{
     align-items: center;
     p{
         margin: 4px;
+        font-weight: bold;
     }
 }
+
 .city{
     display: flex;
     flex-direction: column;
     align-items: center;
     p{
         margin: 4px;
+        font-weight: bold;
     }
 }
 .manutd{
@@ -96,6 +123,7 @@ img{
     align-items: center;
     p{
         margin: 4px;
+        font-weight: bold;
     }
 }
 .barc{
@@ -104,6 +132,7 @@ img{
     align-items: center;
     p{
         margin: 4px;
+        font-weight: bold;
     }
 }
 .real{
@@ -112,6 +141,7 @@ img{
     align-items: center;
     p{
         margin: 4px;
+        font-weight: bold;
     }
 }
 .psg{
@@ -120,6 +150,7 @@ img{
     align-items: center;
     p{
         margin: 4px;
+        font-weight: bold;
     }
 }
 .milan{
@@ -128,35 +159,188 @@ img{
     align-items: center;
     p{
         margin: 4px;
+        font-weight: bold;
     }
 }
-
+.ron{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 4px;
+        font-weight: bold;
+    }
+}
+.messi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 4px;
+        font-weight: bold;
+    }
+}
+.zlatan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 4px;
+        font-weight: bold;
+    }
+}
+.mbappe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 4px;
+        font-weight: bold;
+    }
+}
+.sve{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 4px;
+        font-weight: bold;
+    }
+}
+.sveb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 4px;
+        font-weight: bold;
+    }
+}
+.spa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 4px;
+        font-weight: bold;
+    }
+}
+.spab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 4px;
+        font-weight: bold;
+    }
+}
+.por{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 4px;
+        font-weight: bold;
+    }
+}
+.porb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 4px;
+        font-weight: bold;
+    }
+}
+.arg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 4px;
+        font-weight: bold;
+    }
+}
+.argb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 4px;
+        font-weight: bold;
+    }
+}
+.fra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 4px;
+        font-weight: bold;
+    }
+}
+.frab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 4px;
+        font-weight: bold;
+    }
+}
+.dan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 4px;
+        font-weight: bold;
+    }
+}
+.danb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        margin: 4px;
+        font-weight: bold;
+    }
+}
 
 @media screen and (min-width:768px){
     .rub{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
     gap: 10px;
 }
 
 header{
+    display: grid;
     grid-column: 1/4;
 }
 
 nav{
-    flex-direction: row;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 1/3;
 }
+
 
 ul{
     flex-direction: row;
     justify-content: center;
-    gap: 150px;
-    margin-left: 382px;
+    gap: 20px;
 }
 
 main{
+    display: grid;
+    grid-column: 1/4;
+    grid-template-columns: 1fr 1fr;
+}
+
+section{
     display: grid;
     grid-column: 1/4;
     grid-template-columns: 1fr 1fr;
@@ -171,6 +355,12 @@ footer{
 @media screen and (min-width:1024px){
 
 main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
