@@ -11,6 +11,10 @@ header{
     background-color: #7DFF6E;
     align-items: center;
 }
+button{
+    font-size: 8px;
+    width: 50px;
+}
 
 footer{
     text-align: center;
